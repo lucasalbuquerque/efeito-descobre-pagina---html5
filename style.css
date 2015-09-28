@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 600px;
+    height: auto;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+
+
+@-webkit-keyframes efeitoabrepagina {
+from {
+height: 100%;
+position: absolute;
+z-index: 9999;
+}
+to {
+height: 1%;
+position: absolute;
+z-index: 9999;
+}
+}
+
+#abrepagina {
+background-color: #fff;
+width: 100%;
+bottom:0px;
+position: relative;
+float: left;
+z-index: 9999;
+-webkit-animation-name: efeitoabrepagina;
+-webkit-animation-duration: 1s;
+}
+
+
+footer p {
+    text-align: center;
+    color: #fff;ß
+}
